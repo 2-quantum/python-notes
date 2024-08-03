@@ -11,11 +11,11 @@ else:
 
 age = int(input("Enter your age : "))
 
-if not(age >= 0):
+if not (age >= 0):
     print("You are not born")
-elif not(age >= 18):
+elif not (age >= 18):
     print("You are not adult")
-elif not(age <= 18):
+elif not (age <= 18):
     print("You are an adult.")
 else:
     print("I dont think this will run.")
